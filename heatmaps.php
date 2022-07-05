@@ -140,23 +140,6 @@ if(isset($result)){
 }
 
 
-
-
-/*echo $visit1." ";
-echo $visit2." ";
-echo $visit3." ";
-echo $visit4." ";
-echo $visit5." ";
-echo $visit6." ";
-echo $visit7." ";
-echo $visit8." ";
-echo $visit9." ";
-echo $visit10." ";
-echo $visit11." ";
-echo $visit12." ";
-echo $visit13." ";
-echo $visit14." ";
-echo $visit15." ";*/
 ?>
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
