@@ -92,7 +92,7 @@ if(isset($result)){
 </head>
 <body id="body" onload="init()">
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Floorplanner Tool</a>
+  <a class="navbar-brand" href="default.php">Floorplanner Tool</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -343,17 +343,7 @@ if(isset($result)){
 				$assoc_array2[] = array("px"=>$rects_x[$i],"py"=>$rects_y[$i]);
 			}
 		}
-		//for($i=1;$i<count($walls);$i++){
-			
-		//	array_push($walls_x,$walls[$i]);
 
-		//}
-		//print_r($walls_x);
-		//print_r($walls_y);
-		//print_r($rects_x);
-		//print_r($rects_y);
-		//print_r($assoc_array);
-		//print_r($assoc_array2);
 	?>
 
     

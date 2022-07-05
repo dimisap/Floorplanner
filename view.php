@@ -250,7 +250,7 @@ if(isset($_POST['submit'])){
 </head>
 <body id="body" onload="init()">
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Floorplanner Tool</a>
+  <a class="navbar-brand" href="default.php">Floorplanner Tool</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -286,7 +286,7 @@ if(isset($_POST['submit'])){
 
 					?>
 
-
+<h4>Select a floorplan and a date</h4>
 			<form method="POST">
 				<div class="form-group">
 				<?php   

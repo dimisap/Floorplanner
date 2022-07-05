@@ -223,7 +223,7 @@ echo $visit15." ";*/
 </head>
 <body id="body" onload="init()">
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Floorplanner Tool</a>
+  <a class="navbar-brand" href="default.php">Floorplanner Tool</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -263,9 +263,10 @@ echo $visit15." ";*/
 <div class="row">
 <div class="col-12 col-lg-5 ">
 
+<h4>Select a floorplan and a date</h4>
 <form method="POST">
 		<div class="form-group">
-		<?php   //PREPEI NA VALW IMEROMINIA
+		<?php   
 				
 			echo "<select id='museums' style='width:300px; margin-top:10px;'; class='form-control visitors' name='fileid' > ";
 			while($roww = mysqli_fetch_array($res)){
